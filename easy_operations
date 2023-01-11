@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+   int const a =10; //It is constant value
+   int b,c,t,tt,ttt,tttt;
+   //Get input from user
+   printf("Enter Two no:\n");
+   scanf("%d",&b);
+   scanf("%d",&c);
+   //Addition
+   t=b+c;
+   printf("Addition no is %d\n",t);
+   //Subtraction
+   tt=b-c;
+   printf("Subtraction no is %d\n",tt);
+   //Multiplication
+   ttt=b*c;
+   printf("Multiplication no is %d\n",ttt);
+   //Division
+   tttt=b/c;
+   printf("Division no is %d \n",tttt);
+   return 0;
+}
